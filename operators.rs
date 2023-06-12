@@ -44,4 +44,19 @@ fn main() {
     println!("NOT A: {}", not_a);
     println!("\n");
 
+    // ASSIGNMENT OPERATORS
+    println!("ASSIGNMENT OPERATORS");
+    let mut c = 5;
+    c += 3; //equivalent to c = c + 3 
+    println!("c: {}", c);
+    c -= 2; //equivalent to c = c - 2 
+    println!("c: {}", c);
+    c *= 4; //equivalent to c = c * 4 
+    println!("c: {}", c);
+    c /= 2; //equivalent to c = c / 2 
+    println!("c: {}", c);
+    c %= 3; //equivalent to c = c % 3 
+    println!("c: {}", c);
+    println!("\n");
+    
     }
