@@ -32,4 +32,16 @@ fn main() {
     println!("Less Than or Equal: {}", less_than_or_equal);
     println!("\n");
 
+    // LOGICAL OPERATORS
+    println!("LOGICAL OPERATORS");
+    let a = true;
+    let b = false;
+    let and_result = a && b;
+    let or_result = a || b;
+    let not_a = !a;
+    println!("AND Result: {}", and_result);
+    println!("OR Result: {}", or_result);
+    println!("NOT A: {}", not_a);
+    println!("\n");
+
     }
