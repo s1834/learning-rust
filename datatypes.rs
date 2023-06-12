@@ -56,12 +56,30 @@ fn main() {
     println!("\n");
 
     // CONSTANTS
-    println!("Constants");
+    println!("CONSTANTS");
     const PI: f32 = 3.14;
     const MAX_ATTEMPTS: u8 = 5;
     println!("Value of PI: {}", PI);
     println!("Maximum attemts: {}", MAX_ATTEMPTS);
     println!("Welcome to {}", APP_NAME);
+    println!("\n");
+
+    // STRINGS
+    println!("STRINGS");
+    let hello = String::from("Hello, "); //To create a new `String` in Rust, you can use the `String::from` function or the `to_string` method.
+    let name = "Alice";
+    let greeting = hello + name;
+    println!("{}", greeting);
+    let message = String::from("Hello, Rust!");
+    let length = message.len(); // Returns the length of a string in bytes.
+    println!("Length: {}", length);
+    let is_empty = message.is_empty(); // Returns if a string is empty.
+    println!("Is empty: {}", is_empty);
+    for c in message.chars() {
+        println!("{}", c);
+    } // Returns an iterator over the Unicode characters of a string.
+    let uppercase = message.to_uppercase(); // Converts a string to uppercase.
+    println!("Uppercase: {}", uppercase);
     println!("\n");
     
 }
