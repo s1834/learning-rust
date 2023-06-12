@@ -22,4 +22,11 @@ fn main() {
     println!("interest is {}", interest);
     println!("cost is {}", cost);
     println!("\n");
+
+    // BOOLEANS
+    println!("BOOLEANS");
+    let is_fun: bool = true;
+    println!("Is Rust Programming Fun? {}", is_fun);
+    println!("\n");
+    
 }
