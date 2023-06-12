@@ -37,4 +37,19 @@ fn main() {
     println!("emoji is {}", emoji);
     println!("\n");
 
+    // VARIABLES
+    let message = "Hello, World!"; // Inferred type: &str
+    let age: u32 = 30; // Explicit type annotation: unsigned 32-bit integer
+    println!("{}", message);
+    println!("Age: {}", age);
+    let mut count = 0; // Mutable variable
+    println!("Count: {}", count);
+    count = 5; // Reassigning value to the mutable variable
+    println!("Updated count: {}", count);
+    let count1 = 10;
+    println!("Count1: {}", count1);
+    let count1 = count1 * 2; // Shadowing the previous 'count'
+    println!("Updated count1: {}", count1);
+    println!("\n");
+
 }
