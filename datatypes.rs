@@ -1,3 +1,5 @@
+const APP_NAME: &str = "MyApp";
+
 fn main() {
     // INTEGER
     println!("INTEGERS");
@@ -38,6 +40,7 @@ fn main() {
     println!("\n");
 
     // VARIABLES
+    println!("VARIABLES");
     let message = "Hello, World!"; // Inferred type: &str
     let age: u32 = 30; // Explicit type annotation: unsigned 32-bit integer
     println!("{}", message);
@@ -52,4 +55,13 @@ fn main() {
     println!("Updated count1: {}", count1);
     println!("\n");
 
+    // CONSTANTS
+    println!("Constants");
+    const PI: f32 = 3.14;
+    const MAX_ATTEMPTS: u8 = 5;
+    println!("Value of PI: {}", PI);
+    println!("Maximum attemts: {}", MAX_ATTEMPTS);
+    println!("Welcome to {}", APP_NAME);
+    println!("\n");
+    
 }
