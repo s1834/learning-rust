@@ -12,4 +12,14 @@ fn main() {
     }
     println!("\n");
 
+    count = 0;
+
+    // 'while' loop
+    println!("'while' loop");
+    while count < 5 {
+        println!("Current count: {}", count);
+        count += 1;
+    }
+    println!("\n");
+    
 }
