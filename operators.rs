@@ -72,4 +72,19 @@ fn main() {
     println!("XOR Result: {:b}", xor_result); // Output: 0b0110
     println!("NOT D: {:b}", not_d); // Output: -1011 (two's complement representation)
     println!("\n");
+
+    // RANGE OPERATOR
+    println!("RANGE OPERATOR");
+    // Exclusive range
+    for num in 1..5 {
+        println!("{}", num); 
+    }
+    // Output: 1, 2, 3, 4
+    // Inclusive range
+    for num in 1..=5 { 
+        println!("{}", num);
+    }
+    // Output: 1, 2, 3, 4, 5
+
+    
     }
