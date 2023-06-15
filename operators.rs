@@ -85,6 +85,13 @@ fn main() {
         println!("{}", num);
     }
     // Output: 1, 2, 3, 4, 5
+    println!("\n");
 
+    // DEREF OPERATOR ('*')
+    println!("DEREF OPERATOR");
+    let number = 42;
+    let number_ref = &number;
+    println!("{}", *number_ref);
+    println!("\n");
     
     }
