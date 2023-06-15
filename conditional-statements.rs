@@ -1,9 +1,11 @@
 fn main() {
-    let number = 5; 
+    let number = 10; 
     if number < 0 {
         println!("Number is negative"); 
+    } else if number > 0 {
+        println!("Number is positive"); 
     } else {
-        println!("Number is non-negative"); 
+        println!("Number is zero");
     }
-    
+
 }
