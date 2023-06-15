@@ -21,5 +21,13 @@ fn main() {
         count += 1;
     }
     println!("\n");
-    
+
+    // 'for' loop
+    println!("'for' loop");
+    let fruits = ["apple", "banana", "orange"];
+    for fruit in fruits.iter() { 
+        println!("Fruit: {}", fruit);
+    }
+    println!("\n");
+
 }
