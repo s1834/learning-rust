@@ -93,5 +93,11 @@ fn main() {
     let number_ref = &number;
     println!("{}", *number_ref);
     println!("\n");
+
+    // INDEXING OPERATOR ('[]')
+    println!("INDEXING OPERATOR");
+    let fruits = ["apple", "banana", "orange"];
+    println!("{}", fruits[1]); // Output: banana
+    println!("\n");
     
     }
