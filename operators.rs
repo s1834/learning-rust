@@ -58,5 +58,18 @@ fn main() {
     c %= 3; //equivalent to c = c % 3 
     println!("c: {}", c);
     println!("\n");
-    
+
+    // BITWISE OPERATORS
+    println!("BITWISE OPERATORS");
+    let d = 0b1010; // binary representation of 10
+    let e = 0b1100; // binary representation of 12
+    let and_result = d & e;
+    let or_result = d | e;
+    let xor_result = d ^ e;
+    let not_d = !d;
+    println!("AND Result: {:b}", and_result); //Output: 0b1000
+    println!("OR Result: {:b}", or_result); // Output: 0b1110
+    println!("XOR Result: {:b}", xor_result); // Output: 0b0110
+    println!("NOT D: {:b}", not_d); // Output: -1011 (two's complement representation)
+    println!("\n");
     }
