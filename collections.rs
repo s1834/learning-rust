@@ -30,5 +30,16 @@ fn main() {
         println!("{}", number); 
     }
     println!("\n");
+
+    // STRINGS
+    println!("STRINGS");
+    let mut hello = String::from("Hello"); // Create a String 
+    hello.push_str(", world!"); // Append to the string
+    println!("{}", hello); // Print the string
+    // Iterate over the characters of the string
+    for c in hello.chars() { 
+        println!("{}", c);
+    }
+    println!("\n");
     
 }
