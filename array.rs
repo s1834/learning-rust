@@ -10,4 +10,9 @@ fn main() {
     // Array Length
     println!("Array length: {}", numbers.len());
 
+    // Array Interation
+    for num in numbers.iter() {
+        println!("Number: {}", num);
+    }
+
 }
