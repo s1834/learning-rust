@@ -1,3 +1,6 @@
+use std::collections::HashMap;
+
+
 fn main() {
     // VECTORS
     println!("VECTORS");
@@ -41,5 +44,22 @@ fn main() {
         println!("{}", c);
     }
     println!("\n");
+
+    // HASH MAPS
+    println!("HASH MAPS");
+    let mut scores = HashMap::new(); // Create an empty hash map 
+    scores.insert(String::from("Alice"), 100); // Insert a key-value pair 
+    scores.insert(String::from("Bob"), 90);
+    println!("{:?}", scores); // Print the hash map
     
+    // Access a value using the key
+    let alice_score = scores.get("Alice");
+    println!("Alice's score: {:?}", alice_score);
+    
+    // Iterate over the key-value pairs
+    for (name, score) in &scores {
+        println!("{}: {}", name, score);
+    }
+    println!("\n");
+
 }
