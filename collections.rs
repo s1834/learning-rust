@@ -17,5 +17,18 @@ fn main() {
         println!("{}", number);
     } 
     println!("\n");
+
+    // ARRAYS
+    println!("ARRAYS");
+    let numbers1: [i32; 3] = [1, 2, 3]; // Create an array 
+    println!("{:?}", numbers1); // Print the array
+    // Access elements of the array
+    let first_element = numbers1[0];
+    println!("First element: {}", first_element);
+    // Iterate over the array
+    for number in &numbers1 {
+        println!("{}", number); 
+    }
+    println!("\n");
     
 }
