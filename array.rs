@@ -7,4 +7,7 @@ fn main() {
     println!("First element: {}", numbers[0]); 
     println!("Second element: {}", numbers[1]);
 
+    // Array Length
+    println!("Array length: {}", numbers.len());
+
 }
