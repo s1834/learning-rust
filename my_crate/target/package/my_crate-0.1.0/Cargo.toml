@@ -14,4 +14,5 @@ edition = "2021"
 name = "my_crate"
 version = "0.1.0"
 
-[dependencies]
+[dependencies.rand]
+version = "0.8.4"
